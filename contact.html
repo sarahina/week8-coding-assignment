@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body>
+    <nav>
+      <ul id="navigation">
+        <li class="active"><a href="./index.html">Home</a></li>
+        <li class="active"><a href="./feedback.html">Feedback</a></li>
+        <li class="active"><a href="./contact.html">Contact</a></li>
+      </ul>
+    </nav>
+    <br />
+    <hr />
+    <h1>Contact</h1>
+    <form action="">
+      <fieldset>
+        <legend>Your Details:</legend>
+        <br />
+        <label for="fname" class="title">First name:</label>
+        <input
+          type="text"
+          id="fname"
+          name="fname"
+          size="30"
+          maxlength="100"
+        /><br /><br />
+        <label for="lname" class="title">Last name:</label>
+        <input
+          type="text"
+          id="lname"
+          name="lname"
+          size="30"
+          maxlength="100"
+        /><br /><br />
+        <label for="email" class="title">Email:</label>
+        <input
+          type="text"
+          id="email"
+          name="email"
+          size="30"
+          maxlength="100"
+        /><br /><br /><br />
+
+        <p>
+          <label for="hear-about" class="title">How did you hear about us?</label>
+          <select name="referrer" id="hear-about">
+            <option value="google">Google</option>
+            <option value="family">Family</option>
+            <option value="friend">Friend</option>
+            <option value="advert">Advertisement</option>
+            <option value="other">Other</option>
+          </select>
+        </p>
+        <br />
+
+        <p>
+          <label for="message">Message:</label><br />
+          <textarea name="message" cols="50" rows="10"></textarea><br />
+        </p>
+        <label>
+          <input type="checkbox" name="subscribe" checked="checked" />Sign me up
+          for email updates </label
+        >
+      </fieldset>
+      <p class="submit"></p><input type="submit" value="Submit" /></p>
+    </form>
+    <br />
+  </body>
+</html>

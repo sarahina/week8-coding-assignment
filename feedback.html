@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Feedback</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body>
+    <nav>
+      <ul id="navigation">
+        <li class="active"><a href="./index.html">Home</a></li>
+        <li class="active"><a href="./feedback.html">Feedback</a></li>
+        <li class="active"><a href="./contact.html">Contact</a></li>
+      </ul>
+    </nav>
+    <br />
+    <hr />
+    <!-- <div> -->
+      <h1>Feedback</h1>
+      <form action="">
+        <fieldset>
+          <legend>Your Feedback:</legend>
+          <br />
+          <label for="age" class="title">Age:</label>
+          <input
+            type="text"
+            id="age"
+            name="age"
+            size="15"
+            maxlength="30"
+          /><br /><br />
+          <label for="gender" class="title">Gender:</label>
+          <input type="radio" name="gender" value="f" /> Female
+          <input type="radio" name="gender" value="m" /> Male <br /><br />
+
+          <p>Please select your favorite cake flavor:</p>
+          <input type="radio" name="flavor" value="chocolatecake" /> Chocolate
+          Cake
+          <input type="radio" name="flavor" value="cheesecake" /> Cheesecake
+          <input type="radio" name="flavor" value="redvelvetcake" /> Red Velvet
+          Cake <input type="radio" name="flavor" value="carrotcake" /> Carrot
+          Cake <br /><br /><br />
+
+          <p>Let us know what you think!</p>
+          <textarea name="comments" cols="60" rows="6"></textarea>
+        </fieldset>
+        <p class="submit"><input type="submit" value="Submit" /></p>
+       
+      </form>
+      <br />
+    <!-- </div> -->
+  </body>
+</html>
