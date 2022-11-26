@@ -1,13 +1,3 @@
-/* a {
-  color: black;
-} */
-
-/* a:hover,
-a.active {
-  color: white;
-  background-color: #cc4646;
-} */
-
 body {
   height: 98%;
   width: 98%;
@@ -19,7 +9,6 @@ body {
 
 img {
   border-radius: 50%;
-  /* height: fit-content; */
 }
 
 .top-4 {
@@ -27,7 +16,7 @@ img {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  height:fit-content
+  height: fit-content;
 }
 
 #logo {
@@ -38,7 +27,6 @@ img {
 .logo {
   border-radius: 50px;
 }
-
 
 #navigation {
   height: 100%;
@@ -54,7 +42,7 @@ img {
   justify-content: space-evenly;
   align-items: center;
   text-transform: uppercase;
-  font-family: 'Times New Roman', Times, serif;
+  font-family: "Times New Roman", Times, serif;
   font-size: 25px;
   letter-spacing: 2px;
   padding: 20px;
@@ -66,7 +54,6 @@ img {
   transition: all 0.3s ease-in-out;
   box-shadow: inset 0 0 10px #777777;
   border-radius: 10px;
-
 }
 
 .active > a {
@@ -82,45 +69,14 @@ a:link {
   text-decoration: none;
 }
 
-/* a:visited {
-  text-decoration: none;
-}
-
-a:hover {
-  text-decoration: underline;
-}
-
-a:active {
-  text-decoration: underline; */
-
-/* li {
-  margin: 0px 3px;
-  min-width: 90px;
-  min-height: 40px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 25px;
-  transition: all 0.3s ease-in-out;
-  border-radius: 3px;
-} */
-/* 
-li:hover {
-  background-color: white;
-}
-
-li.active {
-  background-color: white;
-} */
-
 h1 {
-  font-size: 45px;
+  font-size: 50px;
   color: black;
   background-color: rgb(238, 215, 228);
   text-align: center;
   margin: 40px;
   padding: 10px;
-  font-family: 'Times New Roman', Times, serif;
+  font-family: "Times New Roman", Times, serif;
   letter-spacing: 2px;
   border: 2px solid red;
   border-radius: 10px;
@@ -133,8 +89,8 @@ h2 {
   text-align: center;
   margin: 40px;
   padding: 10px;
-  font-family: 'Times New Roman', Times, serif;
-  font-size: 35px;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 45px;
   letter-spacing: 2px;
   border: 2px solid red;
   border-radius: 10px;
@@ -165,20 +121,15 @@ tr.head th {
   letter-spacing: 0.15em;
   font-size: 40px;
   padding: 5px 30px 5px 10px;
- 
 }
 
 tr.even td:hover {
   background-color: lavenderblush;
 }
 
-
 td:hover {
-
-    background-color: lightgray;
-
+  background-color: lightgray;
 }
-
 
 td {
   font-family: Georgia, "Times New Roman", Times, serif;
@@ -213,10 +164,10 @@ td a {
 }
 
 div {
-    border-bottom: 1px solid rebeccapurple;
-    margin: 10px;
-    padding-bottom: 10px;
-    width: 260px;
+  border-bottom: 1px solid rebeccapurple;
+  margin: 10px;
+  padding-bottom: 10px;
+  width: 260px;
 }
 
 fieldset {
@@ -230,11 +181,11 @@ fieldset {
 
 .title {
   font-size: 17px;
-    float: left;
-    width: 160px;
-    clear: left;
-    text-align: left;
-    padding-right: 10px;
+  float: left;
+  width: 160px;
+  clear: left;
+  text-align: left;
+  padding-right: 10px;
 }
 
 legend {
@@ -248,52 +199,53 @@ legend {
 }
 
 input[type="text"] {
-    width: 250px;
-    border: 1px salmon;
-    padding: 2px;
-    background-color: white;
+  width: 250px;
+  border: 1px salmon;
+  padding: 2px;
+  background-color: white;
 }
 
-input[type="text"]:focus, input[type="text"]:hover {
-    background-color: lightgoldenrodyellow;
-    border: 1px solid #999999;
+input[type="text"]:focus,
+input[type="text"]:hover {
+  background-color: lightgoldenrodyellow;
+  border: 1px solid #999999;
 }
 
-input[type=submit] {
-    border: 1px solid #006633;
-    background-color: lightgoldenrodyellow;
-    border-radius: 5px;
-    color: red;
-    padding: 5px;
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 20px;
-    margin-top: 10px;
+input[type="submit"] {
+  border: 1px solid #006633;
+  background-color: lightgoldenrodyellow;
+  border-radius: 5px;
+  color: red;
+  padding: 5px;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 20px;
+  margin-top: 10px;
 }
 
-input[type=submit]:hover {
-    border: 1px solid #006633;
-    background-color: white;
-    color: #cc4646;
-    cursor: pointer;
-    font-family: 'Times New Roman', Times, serif;
-    text-align: right;
+input[type="submit"]:hover {
+  border: 1px solid #006633;
+  background-color: white;
+  color: #cc4646;
+  cursor: pointer;
+  font-family: "Times New Roman", Times, serif;
+  text-align: right;
 }
 
 select {
-    display: inline-block;
-    box-sizing: border-box;
-    padding: 0.5em 2em 0.5em 0.5em;
-    border: 1px solid #eee;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 19px;
-    background-color: papayawhip;
-    border-radius: 15px;
+  display: inline-block;
+  box-sizing: border-box;
+  padding: 0.5em 2em 0.5em 0.5em;
+  border: 1px solid #eee;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 19px;
+  background-color: papayawhip;
+  border-radius: 15px;
 }
 
 .submit {
-    width: 310px;
-    text-align: right;
-    font-size: 10px;
+  width: 310px;
+  text-align: right;
+  font-size: 10px;
 }
 
 li:hover {
@@ -316,9 +268,8 @@ li:hover {
 .h2-pages {
   color: black;
   text-shadow: #777777;
-  font-style:oblique;
+  font-style: oblique;
   font-size: 30px;
- 
 }
 
 .page2,
@@ -352,7 +303,8 @@ h4 {
 
 h4 > a {
   color: #cc4646;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   font-size: 20px;
 }
 
