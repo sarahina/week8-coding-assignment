@@ -163,13 +163,6 @@ td a {
   font-size: 30px;
 }
 
-div {
-  border-bottom: 1px solid rebeccapurple;
-  margin: 10px;
-  padding-bottom: 10px;
-  width: 260px;
-}
-
 fieldset {
   width: 600px;
   border: 1px solid salmon;
